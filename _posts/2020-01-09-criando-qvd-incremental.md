@@ -17,6 +17,23 @@ Vamos trabalhar aqui com o modelo "inline", onde os dados serão criados diretam
 
 Vamos lá!
 
+Primeiro, vamos criar uma tabela inline de tarefas, com os campos <b>id, descricao, data_criacao, data_alteracao</b>:
+
+Script:
+```bash
+Tarefas:
+Load * Inline [
+"id","descricao","data_criacao","data_alteracao"
+1, "Carregar dados","08/01/2020","08/01/2020"
+2, "Tratar Dados","08/01/2020","08/01/2020"
+];
+
+exit Script;
+```
+
+![Tabela](/img/2020-01-09-20.16.00.png)
+
+
 Grande Abraço!
 
 Luiz Henrique Araújo.
