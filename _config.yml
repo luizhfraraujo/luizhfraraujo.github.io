@@ -20,15 +20,12 @@ description: Artigos sobre desenvolvimento, tecnologia e afins.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "https://luizhfraraujo.github.io"
+  Home: "https://luizhfraraujo.github.io"
+  Sobre: "aboutme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "https://avatars0.githubusercontent.com/u/6317048?s=460&v=4"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -60,7 +57,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Luiz Araújo
+  name: Luiz Henrique F. R. Araújo
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -69,7 +66,7 @@ author:
 social-network-links:
   rss: true
   email: "luizhbd@gmail.com"
-#  facebook: deanattali
+  #  facebook: deanattali
   github: luizhfraraujo
 #  twitter: daattali
 #  reddit: yourname
@@ -93,7 +90,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://luizhfraraujo.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "https://luizhfraraujo.github.io/" # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -128,14 +125,14 @@ url-pretty: "https://luizhfraraujo.github.io/"  # eg. "deanattali.com/beautiful-
 
 # To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch: master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint: # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+    siteKey: # Use your own site key, you need to apply for one on Google
+    secret: # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
@@ -164,16 +161,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # all files
     values:
       layout: "page"
@@ -195,8 +190,8 @@ exclude:
 
 # prose.io config
 prose:
-  rooturl: '_posts'
-  media: 'img'
+  rooturl: "_posts"
+  media: "img"
   ignore:
     - 404.html
     - LICENSE
@@ -248,6 +243,5 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
