@@ -182,7 +182,7 @@ Após executar o script, teremos os seguinte resultado:
 
 ![Trace](/img/posts/2020-01-09-21.23.34.png)
 
-Espero que tenha ajudado. Qualquer dúvida, suges†ão, entre em contato comigo!
+Espero que tenha ajudado. Qualquer dúvida, sugestão, entre em contato comigo!
 
 <a href="https://github.com/luizhfraraujo">https://github.com/luizhfraraujo<a>
 
