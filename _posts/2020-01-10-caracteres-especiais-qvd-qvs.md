@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QlikSense - Caracteres especiais em colunas utilizando QVS
+title: QlikSense - Caracteres especiais em colunas utilizando QVS com VSCode
 image: https://help.qlik.com/img/logos/Qlik-Help-2019.svg
 tags: [QlikSense, Script]
 share-img: https://help.qlik.com/img/logos/Qlik-Help-2019.svg
