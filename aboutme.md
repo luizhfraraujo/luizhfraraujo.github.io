@@ -1,13 +1,12 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Sobre
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Olá! Meu nome é Luiz Henrique e sou Analista de Business Intelligence na LinkedBy.
+Sou entusiasta de novas tecnologias e procuro sempre estar aprendendo e melhorando meus conhecimento.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+
 
 What else do you need?
 
