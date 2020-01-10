@@ -9,6 +9,7 @@ Olá!
 
 Feliz 2020!
 
+Recentemente precisei desenvolver um script que realizaria cargas incrementais em um QVD. 
 Neste post vamos ver como criar armazenar registros em QVD's no QlikSense, e como atualizar ou inserir estes dados tornando assim uma carga incremental.
 
 A carga incremental consiste em trazer somente dados que foram atualizados ou inseridos após determinada data. Para isto, o registro que você for trabalhar deverá possuir informação sobre data de alteração / inclusão.
@@ -183,10 +184,10 @@ Após executar o script, teremos os seguinte resultado:
 
 Espero que tenha ajudado. Qualquer dúvida, suges†ão, entre em contato comigo!
 
-https://github.com/luizhfraraujo
+<a href="https://github.com/luizhfraraujo">https://github.com/luizhfraraujo<a>
 
 Script final:
-https://github.com/luizhfraraujo/carga-incremental-qliksense
+<a href="https://github.com/luizhfraraujo/carga-incremental-qliksense">https://github.com/luizhfraraujo/carga-incremental-qliksense</a>
 
 Grande Abraço!
 
