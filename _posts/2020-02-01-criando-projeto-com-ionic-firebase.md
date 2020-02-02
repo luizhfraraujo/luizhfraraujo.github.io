@@ -86,14 +86,23 @@ Com o VSCode aberto, podemos ver a estrutura que o Ionic cria para a gente.
 Vamos dar uma passada em alguns items:
 
 <b>src</b> Pasta principal contendo todo o conteúdo do aplicativo
+<br/>
 <b>src/app:</b> Código da nossa aplicação
+<br/>
 <b>src/assets:</b> Estilos, bibliotecas, imagens
+<br/>
 <b>src/environments:</b> Variáveis de ambientes da nossa aplicação. Quando executamos, ele pega um tipo de arquivo de ambiente. Quando geramos um build, ele pega o outro arquivo environment.prod
+<br/>
 <b>src/theme:</b> Pasta contendo as variáveis de tema da aplicação
+<br/>
 <b>angular.json:</b> Configurações do Angular
+<br/>
 <b>capacitor.config.json:</b> Configurações do Capacitor
+<br/>
 <b>ionic.config.json:</b> Configurações do Ionic
+<br/>
 <b>package.json:</b> Arquivo criado pelo NPM com as configurações do projeto.
+<br/>
 
 Certo, com esta breve passada pelos principais arquivos, vamos rodar nosso projeto. Para isto execute o seguinte comando dentro da pasta do projeto:
 
