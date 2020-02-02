@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Criando um projeto com Ionic
+title: Criando um projeto com Ionic, Angular e Firebase
 image: https://luizhfraraujo.github.io/img/posts/ionic_firebase.gif
 tags: [Ionic, Firebase, Angular]
 share-img: https://luizhfraraujo.github.io/img/posts/ionic_firebase.gif
@@ -13,26 +13,34 @@ Vamos iniciar uma série de posts sobre desenvolvimento híbrido utilizando Ioni
 Caso você não conheça as tecnologias, segue os sites e descrições oficiais:
 
 <a href="https://ionicframework.com/">Ionic</a>
+<br/>
 <i>"Aplicativos rápidos e bonitos
-O Ionic Framework é o kit de ferramentas de interface do usuário móvel gratuito e de código aberto para o desenvolvimento de aplicativos de plataforma cruzada de alta qualidade para iOS, Android e Web nativos - tudo a partir de uma única base de código.
+O Ionic Framework é o kit de ferramentas de interface do usuário móvel gratuito e de código aberto para o desenvolvimento de aplicativos de plataforma cruzada de alta qualidade para iOS, Android e Web nativos - tudo a partir de uma única base de código.</i>
 
-Crie com componentes de interface do usuário intuitivos que aceleram o desenvolvimento de aplicativos e podem ser implantados praticamente em qualquer lugar."</i>
+<i>Crie com componentes de interface do usuário intuitivos que aceleram o desenvolvimento de aplicativos e podem ser implantados praticamente em qualquer lugar."</i>
 
 <a href="https://firebase.google.com/">Firebase</a>
-<i>
+<br/>
+
 <p>
+<i>
 <b>Crie aplicativos rapidamente, sem precisar gerenciar a infraestrutura</b>
 Com as funcionalidades do Firebase, como análises, bancos de dados, mensagens e relatórios de erros, você tem mais agilidade e pode se concentrar nos seus usuários.
+</i>
 </p>
 <p>
+<i>
 <b>Feito pelo Google, usado pelos melhores aplicativos</b>
 O Firebase foi criado sobre a infraestrutura do Google e faz o escalonamento automático, até mesmo para os maiores apps.
+</i>
 </p>
 <p>
+<i>
 <b>Uma plataforma com produtos que funcionam melhor juntos</b>
 Os produtos do Firebase funcionam muito bem sozinhos, mas têm um resultado ainda melhor quando compartilham dados e insights entre si.
-</p>
 </i>
+</p>
+
 
 
 Vamos ao código!
