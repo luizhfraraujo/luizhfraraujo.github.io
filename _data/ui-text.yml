@@ -104,7 +104,7 @@ pt-PT:
 # Brazilian Portuguese
 pt-BR:
   comments_label             : "Deixe um comentário"
-  comments_title             :
+  comments_title             : "Comentários"
   comment_form_info          : "Seu email não será publicado. Os campos obrigatórios estão marcados"
   comment_form_comment_label : "Comentário"
   comment_form_md_info       : "Markdown é suportado."
