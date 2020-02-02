@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Criando um projeto com Ionic, Angular e Firebase
-image: https://luizhfraraujo.github.io/img/posts/ionic_firebase.gif
+image: https://luizhfraraujo.github.io/img/posts/ionic_firebase.png
 tags: [Ionic, Firebase, Angular]
-share-img: https://luizhfraraujo.github.io/img/posts/ionic_firebase.gif
+share-img: https://luizhfraraujo.github.io/img/posts/ionic_firebase.png
 ---
 
 Olá!
