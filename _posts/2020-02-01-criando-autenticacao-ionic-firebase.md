@@ -57,16 +57,16 @@ Com o Ionic instalado, vamos iniciar um novo projeto vazio.
 ionic start ionic-firebase-starter
 ```
 
-![IonicFirebase](/img/posts/2020-02-01.01.png)
+![IonicFirebase](/img/posts/2020-02-01.01.PNG)
 
 Aparecerá uma lista para selecionarmos qual framework vamos utilizar. Neste caso, vamos utilizar o Angular.
 Mova com a seta do seu teclado para Angular e aperte enter.
 
-![IonicFirebase](/img/posts/2020-02-01.02.png)
+![IonicFirebase](/img/posts/2020-02-01.02.PNG)
 
 Em seguida, o Ionic apresenta opções de templates para iniciarmos o projeto. Vamos escolher o "Blank".
 
-![IonicFirebase](/img/posts/2020-02-01.03.png)
+![IonicFirebase](/img/posts/2020-02-01.03.PNG)
 
 Vamos agora habilitar o Capacitor para depois gerar os builds do nosso app. Capacitor é o novo framework do Ionic para criação de apps para Android, iOS e Electron (Desktop). Dê uma conferida no Capacitor <a href="https://capacitor.ionicframework.com/">clicando aqui</a>. Para habilitar, aperte <b>Y</b> e dê enter.
 
@@ -75,13 +75,13 @@ A partir desde momento, o CLI do Ionic vai instalar os pacotes necessários para
 
 Quando acabar, aparecerá uma mensagem semelhante a imagem abaixo:
 
-![IonicFirebase](/img/posts/2020-02-01.04.png)
+![IonicFirebase](/img/posts/2020-02-01.04.PNG)
 
 Vamos então acessar o projeto ionic-firebase-starter com um <b>cd ionic-firebase-starter</b> e executar um <b>code .</b> para abrir o Visual Studio Code. 
 
 Com o VSCode aberto, podemos ver a estrutura que o Ionic cria para a gente.
 
-![IonicFirebase](/img/posts/2020-02-01.05.png)
+![IonicFirebase](/img/posts/2020-02-01.05.PNG)
 
 Vamos dar uma passada em alguns items:
 
@@ -105,22 +105,22 @@ Este comando vai iniciar o servidor e abrir o seu navegador com a url http://loc
 
 Vai aparecer a seguinte tela:
 
-![IonicFirebase](/img/posts/2020-02-01.06.png)
+![IonicFirebase](/img/posts/2020-02-01.06.PNG)
 
 Vemos que ele abriu em tela inteira. Vamos agora tentar simular como seria em um dispositivo usando o próprio navegador. Para isto aperte F12 (Estou usando Windows e Google Chrome) ou acesse Menu -> Mais Ferramentas -> Ferramentas do Desenvolvedor. 
 
 Vai abrir a seguinte tela:
 
-![IonicFirebase](/img/posts/2020-02-01.07.png)
+![IonicFirebase](/img/posts/2020-02-01.07.PNG)
 
 Clique agora la em cima, onde (no meu caso) está Responsive e selecione o dispositivo que queira testar. No meu caso vou  selecionar iPhone X.
-![IonicFirebase](/img/posts/2020-02-01.08.png)
+![IonicFirebase](/img/posts/2020-02-01.08.PNG)
 
-![IonicFirebase](/img/posts/2020-02-01.09.png)
+![IonicFirebase](/img/posts/2020-02-01.09.PNG)
 
 Veja que a tela foi redimensionada para a resolução do iPhone X, mas manteve ainda o Material Design do Android. Vamos atualizar a página para que o Ionic entenda e consiga exibir os components do iOS
 
-![IonicFirebase](/img/posts/2020-02-01.10.png)
+![IonicFirebase](/img/posts/2020-02-01.10.PNG)
 
 Veja que agora o título foi para o centro e a fonte mudou. Isso porque o Ionic ja entende qual plataforma que ele está e adapta o visual dos seus componentes para aquela plataforma.
 - Desktop, Android e Web utilizará o Material Design
